@@ -1,7 +1,5 @@
 ---
-name: Pull-Request Template
-about: A default Pull-Request story
-title: '(Short name)'
+name: Pull-Request Template about: A default Pull-Request story title: '(Short name)'
 labels: ''
 assignees: ''
 ---
