@@ -1,101 +1,39 @@
-<img src="./images/logo.sample.png" alt="Logo of the project" align="right">
+Testaufgabe Frontend 2022 - Meine Herangehensweise.
 
-# Name of the project &middot;
+Gesamtdauer: 8std
 
-> Additional information or tag line
+Terminalbefehle: npm install
+npm run storybook  
+ npm run client:dev
 
-A brief description of your project, what it is used for.
+Arbeitsablauf:
 
-## Installing / Getting started
+Zuerst habe ich mir Gedanken darüber gemacht welche Komponenten die Seite benötigt.
+Diese habe ich mir aufgeschrieben und dann nacheinander erstellt. Die "Besonderheiten" bzw. Herangehensweise an die einzelnen Komponenten folgen.
 
-A quick introduction of the minimal setup you need to get a hello world up &
-running.
+Header: Hier habe ich die zur Unterstreichung der einzelnen Kategorien einen ::hover genutzt um die jeweiligen Wörter zu highlighten.
+(Das Logo für den Header konnte ich den Assets leider nicht entnehmen).
 
-```shell
-commands here
-```
+Formular: Hier galt es ein einfaches Form Element zu erstellen. Die einzelnen Spalten habe ich mittels display:grid; angeordnet.
 
-Here you should say what actually happens when you execute the code above.
+Hintergrund: Bei diesem Element hatte ich leichte Schwierigkeiten. Es gelang mir nicht das Bild vollkommen responsive du gestalten und gleichzeitig das Formular
+darauf zu plazieren.
 
-## Developing
+Text: Zwei einfach Texte - eine Überschrift. Relativ selbserklärend.
 
-### Built With
+Collage: Mit dieser Collage hatte ich bei weitem die größten Schwierigkeiten. Ich habe unglaublich viel Zeit dabei verloren diese einigermaßen richtig anzuorden.
+Beim nächsten Mal würde ich diese Collage lediglich grob anordnen und dann weiter zum nächsten Element springen. Hier für gingen wahrscheinlich 2Std. drauf.
+Im Endeffekt konnte ich diese Aufgabe einigermaßen lösen indem ich grid-template-areas genutzt habe.
 
-List main libraries, frameworks used including versions (React, Angular etc...)
+Haus-Karten: Bei den "Haus-Karten" war die größte Schwierigkeit für mich die schriften auf den Elementen zu plazieren und gleichzeitg responsive zu bleiben. Dies ist mir nicht in Gänze gelungen.
+Bei den roten Linies musste ich ein bisschen kreativ werden, in dem ich "unsichtbare" div's erstellt habe, denen eine border-bottom verpasst habe, den Text entweder links/rechts- bündig
+plaziert habe und den Namen der Residenz darunter plaziert habe.
 
-### Prerequisites
+Carousel: Das Bilder "Carousel" war der nächste grpße Zeitfresser. Hier habe ich auch mindestens 2Std. verloren. Im Endeffekt habe ich mich dafür entschieden auf die Bootstrap-React-Library zurückzugreifen
+und habe ein Carousel gefunden, was einigermaßen meinen Ansprüchen genügt und habe dies - soweit möglich an die Anforderungen angepasst.
 
-What is needed to set up the dev environment. For instance, global dependencies or any other tools. include download links.
+Footer: Der Footer besteht auf zwei einfach div's, welche ich übereinander plaziert habe. Das Logo des Footers konnte ich den Assets ebenfalls nicht entnehmen.
 
-### Setting up Dev
-
-Here's a brief intro about what a developer must do in order to start developing
-the project further:
-
-```shell
-git clone https://github.com/your/your-project.git
-cd your-project/
-packagemanager install
-```
-
-And state what happens step-by-step. If there is any virtual environment, local server or database feeder needed, explain here.
-
-### Building
-
-If your project needs some additional steps for the developer to build the
-project after some code changes, state them here. for example:
-
-```shell
-./configure
-make
-make install
-```
-
-Here again you should state what actually happens when the code above gets
-executed.
-
-### Deploying / Publishing
-
-give instructions on how to build and release a new version
-In case there's some step you have to take that publishes this project to a
-server, this is the right time to state it.
-
-```shell
-packagemanager deploy your-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
-## Versioning
-
-We can maybe use [SemVer](http://semver.org/) for versioning. For the versions available, see the [link to tags on this repository](/tags).
-
-## Configuration
-
-Here you should write what are all of the configurations a user can enter when using the project.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-Explain what these tests test and why.
-
-```shell
-Give an example
-```
-
-## Style guide
-
-Explain your code style and show how to check it.
-
-## Api Reference
-
-If the api is external, link to api documentation. If not describe your api including authentication methods as well as explaining all the endpoints with their required parameters.
-
-## Database
-
-Explaining what database (and version) has been used. Provide download links.
-Documents your database design and schemas, relations etc...
-
-## Licensing
-
-State what the license is and how to find the text version of the license.
+Abschlussworte: Mir ist bewusst, das ich viel Zeit damit verloren habe mir über bestimmte Komponenten den Kopf zu zerbrechen anstatt diese "vorzeigbar" zu machen und zum nächsten Task zu springen. Für die Mobile Viewports hatte ich am Ende keine Zeit mehr, da ich mich strikt an die maximalen 8Std. halten wollte.
+Diese hätte ich mit @keyframes-mobile und dementsprechenden Viewports umgesetzt. Dies stellte für mich keine Schwierigkeit dar, sondern ein Fleißaufgabe, weshalb ich mich an die "tricky"- Komponenten gemacht habe.
+Ich hoffe ich habe die Aufgabe einigermaßen zufriedenstellen erledigt. EDIT: Ich habe für jede einzelne Komponente eine dazugehörige Story auf Storybook.com erstellt und diese isoliert von den anderen Komponenten testen zu können.

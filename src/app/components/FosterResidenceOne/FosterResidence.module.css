@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+}
+
+.styleContainer {
+  width: 35%;
+  background-color: #282c34;
+  height: auto;
+}
+
+.image {
+  width: 65%;
+  object-fit: contain;
+  height: auto;
+}
+
+.parag {
+  left: 17%;
+  color: white;
+  margin-top: 52%;
+  bottom: 48%;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.paragContainer {
+  text-align: left;
+  width: 22%;
+  position: absolute;
+  left: 17%;
+  margin-top: 51%;
+  bottom: 49%;
+  border-bottom: 3px solid #770b13;
+}
+
+.name {
+  left: 17%;
+  color: white;
+  margin-top: 63%;
+  bottom: 37%;
+  font-size: x-large;
+}
+
+.nameContainer {
+  position: absolute;
+  text-align: left;
+  width: 22%;
+  left: 17%;
+  margin-top: 65%;
+  bottom: 35%;
+}

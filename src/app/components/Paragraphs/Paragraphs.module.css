@@ -1,0 +1,34 @@
+.second {
+  height: 40em;
+}
+
+.preheader {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 9em;
+}
+
+.subHeading {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: underline #770b13;
+}
+
+.paragDiv {
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7em;
+}
+
+.paragOne {
+  width: 40%;
+  margin-right: 5em;
+}
+
+.paragTwo {
+  width: 40%;
+}

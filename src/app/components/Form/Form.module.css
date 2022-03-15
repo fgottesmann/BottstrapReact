@@ -1,0 +1,109 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.1fr 1.2fr 0.7fr 1fr;
+  grid-template-rows: 1fr 1fr 0.4fr 0.7fr 0.4fr 0.7fr 0.4fr 0.7fr 0.7fr;
+  gap: 0 0;
+  grid-template-areas:
+    'heading heading heading heading heading heading'
+    'heading heading heading heading heading heading'
+    'whereLabel whereLabel . . . .'
+    'where where where where where where'
+    'arriveLabel arriveLabel . leaveLabel leaveLabel .'
+    'arrive arrive arrive leave leave leave'
+    'manyLabel manyLabel . . . .'
+    'many many many many many many'
+    '. . . . button button';
+  width: 20%;
+  background: #282c34;
+  top: 20%;
+  z-index: 5;
+  position: relative;
+  margin-left: 18%;
+  text-align: left;
+  padding-top: 2%;
+  height: 40%;
+  border-radius: 3px;
+}
+
+label {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: -10%;
+}
+
+input {
+  background: #282c34;
+  border: 1px solid white;
+  border-radius: 0.25em;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  color: white;
+}
+
+.where {
+  grid-area: where;
+}
+
+.whereLabel {
+  grid-area: whereLabel;
+  padding-left: 18%;
+}
+
+.arrive {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  margin-left: 10%;
+  text-transform: uppercase;
+  grid-area: arrive;
+}
+
+.arriveLabel {
+  grid-area: arriveLabel;
+  padding-left: 18%;
+}
+
+.leave {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 10%;
+  grid-area: leave;
+  text-transform: uppercase;
+}
+
+.leaveLabel {
+  grid-area: leaveLabel;
+}
+
+.many {
+  grid-area: many;
+}
+
+.manyLabel {
+  grid-area: manyLabel;
+  padding-left: 18%;
+}
+
+.button {
+  grid-area: button;
+  border: 1px solid white;
+  color: white;
+  border-radius: 0.25em;
+  background: #282c34;
+  align-self: end;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  font-size: 1em;
+}
+
+.heading {
+  grid-area: heading;
+  color: white;
+  padding-left: 10%;
+}
+
+::placeholder {
+  padding-left: 2%;
+  color: white;
+}

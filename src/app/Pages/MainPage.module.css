@@ -1,0 +1,49 @@
+.mainPage {
+  width: 100vw;
+  height: auto;
+  overflow: scroll;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: -5%;
+}
+
+.first {
+  z-index: -10;
+  width: 100%;
+}
+
+.desktopViewFirst {
+  z-index: -20;
+  margin-top: -40%;
+  object-fit: contain;
+}
+
+.navigation {
+  z-index: 100;
+}
+
+.form {
+  margin-top: 20%;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paragraphTwo {
+  margin-bottom: 5em;
+}
+
+.paragraphBottom {
+  margin-top: 5%;
+}
+
+.carousel {
+  margin-top: 5%;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}

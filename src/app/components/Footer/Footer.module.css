@@ -1,0 +1,30 @@
+.container {
+  background-color: #770b13;
+  width: 100%;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5%;
+}
+
+.subContainer {
+  background-color: #770b13;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parag {
+  color: white;
+  padding-bottom: 5%;
+}

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 21%;
+}
+
+.parag {
+  text-transform: uppercase;
+  justify-content: center;
+  display: flex;
+}
+
+.subHeading {
+  text-decoration: underline #770b13;
+  justify-content: center;
+  display: flex;
+  text-transform: uppercase;
+}
